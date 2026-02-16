@@ -14,3 +14,9 @@ build/
 *.sqlite3
 /.pytest_cache/
 /.mypy_cache/
+venv/
+miniconda.sh
+__pycache__/
+*.pyc
+.DS_Store
+.env
