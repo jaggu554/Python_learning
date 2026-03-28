@@ -26,3 +26,8 @@ def greet(name="surendra"):
 print(greet("Rajesh "))
 
 print(greet())
+
+def helloworld():
+    return "Welcome to the jungle"
+
+print(helloworld())
