@@ -31,3 +31,12 @@ def helloworld():
     return "Welcome to the jungle"
 
 print(helloworld())
+
+def find_prime(n):
+    for i in range(2,n):
+        if n%i==0 :
+            return "not prime"
+    else:
+        return "prime"
+    
+print(find_prime(11))
