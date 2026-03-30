@@ -40,3 +40,54 @@ def find_prime(n):
         return "prime"
     
 print(find_prime(11))
+
+
+def sum_list(nums):
+    sum=0
+    for i in nums:
+        sum+=i
+    return sum
+
+print(sum_list([1,2,3,4]))
+
+# count even numbers
+
+def even_count(nums):
+    count=0
+    for i in nums:
+        if i%2==0:
+            count+=1
+
+    return count
+
+print(even_count([1,2,3,4,5,6,6,88]))
+
+# maximum in the list
+
+def find_largest(nums):
+    largest=0
+    for i in nums:
+        if i>largest:
+            largest=i
+    return largest
+
+print(find_largest([1,2,3,4,5,6,6,88]))
+
+
+def reverse_list(nums):
+    result=[]
+    for i in range(len(nums)-1,-1,-1):
+        result.append(nums[i])
+    return result
+
+print(reverse_list([1,2,3,4,5,6,6,88]))
+
+
+def remove_duplicates(nums):
+    result=[]
+    for x in nums:
+        if x>=3 and x not in result:
+            result.append(x)
+    return result
+
+print(remove_duplicates([1,1,22,2,22,3,4,5,6]))
