@@ -85,3 +85,12 @@ def square(x):
     return x*x
 
 print(apply_function([1,2,3,4,5,6],square))
+
+
+def cube_numbers(nums):
+    result=[]
+    for i in nums:
+        result.append(i*i*i)
+    return result
+
+print(cube_numbers([1,2,3,4,5,6]))
