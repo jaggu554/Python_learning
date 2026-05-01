@@ -1,0 +1,71 @@
+{
+    "company": "TechNova",
+    "departments": [
+        {
+            "name": "Engineering",
+            "employees": [
+                {
+                    "id": 101,
+                    "name": "Alice",
+                    "role": "Backend Engineer",
+                    "skills": [
+                        "Python",
+                        "Django",
+                        "ML"
+                    ],
+                    "projects": [
+                        "Recommendation System",
+                        "Fraud Detection"
+                    ]
+                },
+                {
+                    "id": 102,
+                    "name": "Bob",
+                    "role": "Frontend Engineer",
+                    "skills": [
+                        "React",
+                        "JavaScript",
+                        "CSS"
+                    ],
+                    "projects": [
+                        "Dashboard UI",
+                        "Analytics Platform"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Data Science",
+            "employees": [
+                {
+                    "id": 201,
+                    "name": "Charlie",
+                    "role": "Data Scientist",
+                    "skills": [
+                        "Python",
+                        "Pandas",
+                        "Deep Learning"
+                    ],
+                    "projects": [
+                        "Prediction Model",
+                        "NLP Engine"
+                    ]
+                },
+                {
+                    "id": 202,
+                    "name": "David",
+                    "role": "ML Engineer",
+                    "skills": [
+                        "TensorFlow",
+                        "PyTorch",
+                        "MLOps"
+                    ],
+                    "projects": [
+                        "Model Deployment",
+                        "Pipeline Automation"
+                    ]
+                }
+            ]
+        }
+    ]
+}
